@@ -39,7 +39,6 @@
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
-    "@babel/eslint-parser": "^7.5.4",
 		"extends": [
 			"react-app",
 			"react-app/jest"
