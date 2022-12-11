@@ -1,0 +1,66 @@
+.top {
+	width: 100%;
+	height: 100%;
+	background-color: #455a64;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+.big-title {
+	font-family: Montserrat;
+	font-size: 60px;
+	text-align: center;
+}
+
+.sub-title {
+	font-size: 35px;
+	font-family: Montserrat;
+	text-align: center;
+}
+
+.top-button {
+	background-color: #ffa000;
+	border-radius: 5px;
+	width: 350px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 22px;
+	font-family: Montserrat;
+}
+
+.top-button:hover {
+	text-decoration: none;
+	color: #455a64;
+	font-weight: bold;
+}
+
+.service::after {
+	content: "";
+	background: #ffa000;
+	height: 7px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(1px);
+}
+
+.text {
+	font-family: Montserrat;
+}
+
+.foot {
+	background-color: #455a64;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 30px;
+}

@@ -1,38 +1,66 @@
 {
-  "name": "e_flash",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "e_flsah",
+	"version": "0.1.0",
+	"private": true,
+	"engines": {
+		"node": "12.x",
+		"npm": "6.x"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.15.3",
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.5",
+		"@testing-library/user-event": "^12.8.3",
+		"axios": "^0.24.0",
+		"bootstrap": "^4.6.0",
+		"express": "^4.17.1",
+		"express-favicon": "^2.0.1",
+		"jquery": "^3.6.0",
+		"path": "^0.12.7",
+		"popper.js": "^1.16.1",
+		"react-bootstrap-table-next": "^4.0.3",
+		"react-bootstrap-table2-paginator": "^2.1.2",
+		"react-bootstrap-table2-toolkit": "^2.1.3",
+		"react-icons": "^4.2.0",
+		"react-redux": "^7.2.9",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"react-spinners": "^0.10.4",
+		"reactstrap": "^8.9.0",
+		"redux": "^4.2.0",
+		"redux-persist": "^6.0.0",
+		"web-vitals": "^1.1.1"
+	},
+	"scripts": {
+		"dev": "react-scripts start",
+		"start": "node server.js",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+    "@babel/eslint-parser": "^7.5.4",
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.0",
+		"react": "^16.14.0",
+		"react-dom": "^16.14.0",
+		"typescript": "^4.5.2"
+	}
 }
