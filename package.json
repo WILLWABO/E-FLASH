@@ -38,13 +38,6 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
-	"eslintConfig": {
-    "@babel/eslint-parser": "^7.5.4",
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
 	"browserslist": {
 		"production": [
 			">0.2%",
@@ -58,7 +51,9 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/core": "^7.13.0",
+		"@babel/core": "^7.20.5",
+		"@babel/eslint-parser": "^7.19.1",
+		"eslint": "^7.32.0",
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
 		"typescript": "^4.5.2"
