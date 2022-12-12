@@ -13,16 +13,6 @@ export default class Home extends Component {
         return (
             <div>
                 <NavbarUser />
-                <div className="top">
-                    <div className="container">
-                        <p className="big-title">E-FLASH</p>
-
-                        <p className="sub-title">Plateforme de vente et d'achat flash</p>
-                    </div>
-                </div>
-                <div className="foot">
-                    <p>©Copyright Génie Informatique 5GI -- promo 2023 --</p>
-                </div>
             </div>
         )
     }
