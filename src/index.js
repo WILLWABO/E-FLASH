@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'typeface-montserrat';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 // eslint-disable-next-line
