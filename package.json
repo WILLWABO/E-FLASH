@@ -29,6 +29,7 @@
 		"reactstrap": "^8.9.0",
 		"redux": "^4.2.0",
 		"redux-persist": "^6.0.0",
+		"typeface-montserrat": "^1.1.13",
 		"web-vitals": "^1.1.1"
 	},
 	"scripts": {
@@ -37,6 +38,12 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
 	},
 	"browserslist": {
 		"production": [
@@ -51,11 +58,10 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/core": "^7.20.5",
-		"@babel/eslint-parser": "^7.19.1",
-		"eslint": "^7.32.0",
+		"@babel/core": "^7.13.0",
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
 		"typescript": "^4.5.2"
 	}
 }
+Foot
