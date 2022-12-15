@@ -28,38 +28,21 @@ export default class Home extends Component {
                 </div>
 
                 <div className="container">
+                    <div className='listfilt'>
+                        <input type='search'id='searchcat'placeholder='Categories'/>
+                        <input type='search'id='serchprice'placeholder='Prix'/> 
+                        <input type='search'id='serchtime'placeholder='Duree'/>
+                    </div><br></br>
                 
                     <div className="row">
+                        {[1, 2, 3].map(el => 
+                            (<div className="col-md-4" style={{}}>
+                            <CardArticle></CardArticle>
+                        </div>))}
                         
-                        <div className="col-md-4" style={{}}>
-                            <CardArticle></CardArticle>
-                        </div>
-
-                        <div className="col-md-4" >
-                            <CardArticle></CardArticle>
-                        </div>
-
-                        <div className="col-md-4" >
-                            <CardArticle></CardArticle>
-                        </div>
                         
                     </div>
 
-                    <div className="row">
-                        
-                        <div className="col-md-4" style={{}}>
-                            <CardArticle></CardArticle>
-                        </div>
-
-                        <div className="col-md-4" >
-                            <CardArticle></CardArticle>
-                        </div>
-
-                        <div className="col-md-4" >
-                            <CardArticle></CardArticle>
-                        </div>
-                        
-                    </div>
                 </div>
 
                 <div className="foot">
