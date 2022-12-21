@@ -9,6 +9,7 @@ function Detail(){
         <div >
             <NavbarUser />
 
+
         <div className="row justify-content-around custom-line" >
             <div className="col-4 bg-warning">
             <img src="C:\Users\SAID\Documents\reactproj\E-flash\public\logo512.png"alt="Image du prouit"/>
@@ -30,7 +31,9 @@ function Detail(){
 
 
 
-
+        <div className="foot">
+                    <p>©Copyright Génie Informatique -- promo 2023 --</p>
+                </div>
         </div>
         
     )
