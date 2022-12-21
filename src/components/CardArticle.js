@@ -1,24 +1,32 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardText,CardTitle,CardHeader } from 'reactstrap'
-export default class CardArticle extends Component {
-    render(){
+
+function CardArticle (props) {
+  const {nom,image,description,prix}=props
+
+    
         return(
+
             
           <Card style={{
             width: '18rem'
           }}>
-            <img src='https://picsum.photos/300/200'
+            <img src={image}
             alt='Image du produit'/>
             <CardBody className='text-center'>
-            <CardTitle>Nom produit</CardTitle>
+            <CardTitle>{nom}</CardTitle>
               <CardText className='fs-3 text'style={{color:'red'}}>
-                Prix du produit en XAF
+                {prix}
               </CardText>
-              <CardText>Description du produit</CardText>
+              <CardText>{description}</CardText>
             </CardBody>
             </Card>
+
+            
      
             
         )
-    }
+    
 }
+
+export default CardArticle;

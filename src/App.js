@@ -8,6 +8,7 @@ import Register from './components/layouts/register'
 
 import NotFound from './components/layouts/404'
 import Unauthorized from './components/layouts/401'
+import Detail from './components/layouts/detail';
 
 function App() {
 	return (
@@ -17,7 +18,7 @@ function App() {
 				<Route path="/login" component={Login} />
 				<Route path="/register" component={Register} />
 				<Route path="/unauthorized" component={Unauthorized} />
-				
+				<Route path="/detail" component={Detail} />
 				<Route path="/page-not-found" component={NotFound} />
 				
 				<Route render={() => <Redirect to="/page-not-found" />} />

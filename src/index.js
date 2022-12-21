@@ -16,6 +16,9 @@ import 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
 import { store, persistor} from './redux/store'
+import flashSdk from '@dullbenz/yowflash-flash-sdk';
+
+flashSdk.init("http://192.168.207.141:8080");
 
 ReactDOM.render(
 	<Provider store={store}>
