@@ -55,7 +55,7 @@
 
 .foot {
 	background-color: #455a64;
-	position: absolute;
+	/* position: fixed; */
 	width: 100%;
 	text-align: center;
 	color: white;
