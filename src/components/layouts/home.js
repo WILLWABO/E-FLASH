@@ -66,7 +66,7 @@ export default class Home extends Component {
                 <div className="foot">
                     <p>©Copyright Génie Informatique -- promo 2023 --</p>
                 </div>
-                
+                <NavbarUser />
             </div>
         )
     }
