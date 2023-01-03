@@ -30,7 +30,8 @@
 		"redux": "^4.2.0",
 		"redux-persist": "^6.0.0",
 		"typeface-montserrat": "^1.1.13",
-		"web-vitals": "^1.1.1"
+		"web-vitals": "^1.1.1",
+		"@dullbenz/yowflash-flash-sdk": "./flash-sdk"
 	},
 	"scripts": {
 		"dev": "react-scripts start",
